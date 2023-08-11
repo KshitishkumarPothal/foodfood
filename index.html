@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Food</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"> <i class='fas fa-shopping-basket'></i> foodfood</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#product">Product</a>
+            <a href="#catagories">Catagories</a>
+            <a href="#review">Review</a>
+            <a href="#blog">Blog</a>
+
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="user-btn"></div>
+           
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Search here....">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="C:\node\vscode\foodfood\pic\tomato.jpg" alt="" width="150" height="150">
+                <div class="content">
+                    <h3>tomato</h3>
+                    <span class="price">50/-</span>
+                    <span class="quantity">qty:1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="C:\node\vscode\foodfood\pic\chilli.jpg" alt="" width="150" height="150">
+                <div class="content">
+                    <h3>chilli</h3>
+                    <span class="price">10/-</span>
+                    <span class="quantity">qty:1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="C:\node\vscode\foodfood\pic\onion.jpg" alt="" height="150" width="150">
+                <div class="content">
+                    <h3>onion</h3>
+                    <span class="price">20 /-</span>
+                    <span class="quantity">qty:1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="C:\node\vscode\foodfood\pic\image_7.jpg" alt="" height="150" width="150">
+                <div class="content">
+                    <h3>veg biriyani</h3>
+                    <span class="price">180 /-</span>
+                    <span class="quantity">qty:1</span>
+                </div>
+            </div>
+            <div class="total">total:260</div>
+            <a href="#" class="btn">check out</a>
+        </div>
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="enter your email..." class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <p>forget your password <a href="#"> Click here</a></p>
+            <p>don't have an account<a href="#"> Create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+    </header>
+    <!-- home section start-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>enjoy your <span> best day</span> with us </h3>
+            <p>it is better with us to celebrate with your family with a great delecious meal.. </p>
+                  <a href="#" class="btn"> shop now</a>
+        </div>
+
+    </section>
+      <!-- home section end-->
+      <!-- features section start-->
+
+    <section class="features" id="features">
+        <h1 class="heading">our <span>features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="C:\node\vscode\foodfood\pic\feature_1.jpg" height="170px" width="170px">
+                <h3>healthy food</h3>
+                <p>our foor are cooked in a very hygienic way.our chef are very working professional and very experience.</p>
+                    <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="C:\node\vscode\foodfood\pic\feature_2.jpg" height="170px" width="170px" alt="">
+                <h3>quick delevery</h3>
+                <p>its sound like we are near to you. just order your meal ,our employee are very eagered to do it on time.</p>
+                    <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="C:\node\vscode\foodfood\pic\feature_3.jpg" height="170px" width="170px" alt="">
+                <h3>online payment</h3>
+                <p>in the age of technology era aur company also accept online payment. get faster and no need for any change if you dont have the perfect amound.</p>
+                    <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="C:\node\vscode\foodfood\pic\feature_4.gif" height="170px" width="170px" alt="">
+                <h3>availble everywhere</h3>
+                <p>our company is available every where. you can get the service from everywhere..</p>
+                    <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        
+    </section>
+
+        <!-- features section end-->
+        <!--product section start-->
+<section class="product" id="product">
+    <h1 class="heading"> our <span>special</span> products</h1>
+
+
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+             <img src="C:\node\vscode\foodfood\pic\image_1.jpg" height="150px" width="150px" alt="">
+                <h3>zeera rice</h3>
+                <div class="price">30/- plate</div>
+                   <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" >add to cart</a>
+                </div>
+                
+            <div class="swiper-slide box">
+                <img src="C:\node\vscode\foodfood\pic\image_2.jpg" height="150px" width="150px" alt="">
+                <h3>kadai paneer</h3>
+                <div class="price">80/- plate</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" >add to cart</a>
+                </div>
+      
+            <div class="swiper-slide box">
+                <img src="C:\node\vscode\foodfood\pic\image_3.jpg" height="150px" width="150px" alt="">
+                   <h3>palak paneer</h3>
+                   <div class="price">120/- plate</div>
+                      <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                       </div>
+                       <a href="#" class="btn" >add to cart</a>
+                   </div>
+                   
+       
+            <div class="swiper-slide box">
+                <img src="C:\node\vscode\foodfood\pic\image_4.jpg" height="150px" width="150px" alt="">
+                <h3>plane rice</h3>
+                <div class="price">30/- plate</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" >add to cart</a>
+                
+            </div>
+           <div class="swiper-slide box">
+              <img src="C:\node\vscode\foodfood\pic\image_5.jpg" height="150px" width="150px" alt="">
+              <h3>paneer chilli</h3>
+             <div class="price">100/- plate</div>
+                 <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" >add to cart</a>
+               
+            </div>
+            <div class="swiper-slide box">
+               <img src="C:\node\vscode\foodfood\pic\image_12.jpg" height="150px" width="150px" alt="">
+                <h3>cocktail</h3>
+                <div class="price">100/- glass</div>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" >add to cart</a>
+                
+            </div>
+            <div class="swiper-slide box">
+               <img src="C:\node\vscode\foodfood\pic\image_13.jpg" height="150px" width="150px" alt="">
+                <h3>masala mojito</h3>
+                <div class="price">80/- glass</div>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" >add to cart</a>
+                
+            </div>
+        </div>
+    </div>
+    <div class="swiper product-slider">
+         <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="C:\node\vscode\foodfood\pic\image_6.jpg" height="150px" width="150px" alt="">
+                <h3>veg briyani</h3>
+                <div class="price">200/- plate</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" >add to cart</a>
+               
+            </div>
+   
+            <div class="swiper-slide box">
+                <img src="C:\node\vscode\foodfood\pic\image_7.jpg" height="150px" width="150px" alt="">
+                <h3>chicken briyani</h3>
+                <div class="price">220/- plate</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" >add to cart</a>
+             
+            </div>
+      
+            <div class="swiper-slide box">
+                <img src="C:\node\vscode\foodfood\pic\image_8.jpg" height="150px" width="150px" alt="">
+                <h3>fish fry</h3>
+                <div class="price">120/- plate</div>
+                   <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" >add to cart</a>
+           
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="C:\node\vscode\foodfood\pic\image_9.jpg" height="150px" width="150px" alt="">
+                <h3>fish curry</h3>
+                <div class="price">30/- plate</div>
+                   <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" >add to cart</a>
+               </div>
+
+            <div class="swiper-slide box">
+               <img src="C:\node\vscode\foodfood\pic\image_10.jpg" height="150px" width="150px" alt="">
+                <h3>burger</h3>
+                <div class="price">120/- plate</div>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" >add to cart</a>
+                
+            </div>
+            <div class="swiper-slide box">
+               <img src="C:\node\vscode\foodfood\pic\image_11.jpg" height="150px" width="150px" alt="">
+                <h3>chicken hydrabadi</h3>
+                <div class="price">130/- plate</div>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" >add to cart</a>
+                
+            </div>
+            <div class="swiper-slide box">
+               <img src="C:\node\vscode\foodfood\pic\image_14.jpg" height="150px" width="150px" alt="">
+                <h3>chicken curry</h3>
+                <div class="price">120/- plate</div>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" >add to cart</a>
+                
+            </div>
+        </div>
+    </div>
+</section>
+   
+
+        <!--product section end-->
+
+
+<!--categories sction start-->
+
+<section class="catagories" id="catagories">
+    <h1 class="heading">product <span>catagories</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="C:\node\vscode\foodfood\pic\cat_1.jpg" height="150px" width="150px" alt="">
+            <h3>vegan food...</h3>
+            <p>upto 50% off</p>
+            <a href="#" class="btn"> shop now</a>
+        </div>
+        <div class="box">
+            <img src="C:\node\vscode\foodfood\pic\cat_2.jpg" height="150px" width="150px" alt="">
+            <h3>non-veg food...</h3>
+            <p>upto 50% off</p>
+            <a href="#" class="btn"> shop now</a>
+        </div>
+        <div class="box">
+            <img src="C:\node\vscode\foodfood\pic\cat_3.jpg" height="150px" width="150px" alt="">
+            <h3>biriyani...</h3>
+            <p>upto 50% off</p>
+            <a href="#" class="btn"> shop now</a>
+        </div>
+        <div class="box">
+            <img src="C:\node\vscode\foodfood\pic\cat_4.jpg" height="150px" width="150px" alt="">
+            <h3>chill drinks...</h3>
+            <p>upto 50% off</p>
+            <a href="#" class="btn"> shop now</a>
+        </div>
+    </div>
+</section>
+<!--categories sction end-->
+
+<!-- review section start -->
+<section class="review" id="review">
+    <h1 class="heading">customer's <span>review</span></h1>
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="C:\node\vscode\foodfood\pic\review_1.jpg" height="120px" width="120px">
+                <p>what a delecious dish yaar and  a great service..</p>
+                <h3>Monaj kauri</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="C:\node\vscode\foodfood\pic\review_2.jpg" height="120px" width="120px" alt="">
+                <p>it was really a wounderful lunch in your hotel in a good budget.</p>
+                <h3>Lalitendu Behera</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="C:\node\vscode\foodfood\pic\review_3.jpg" height="120px" width="120px"  alt="">
+                <p>great service in an affordable price.</p>
+                <h3>Sitaram Maharana</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="C:\node\vscode\foodfood\pic\reviex_4.jpg" height="120px" width="120px"  alt="">
+                <p>mind blowing meals witha great test..</p>
+                <h3>Diptesh Behera</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- review section end -->
+<!-- blog section start -->
+<section class="blogs" id="blog">
+    <h1 class="heading">our <span>blogs</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="C:\node\vscode\foodfood\pic\blog_1.jpg" height="120px" width="120px">
+            <div class="content">
+               <div class="icons">
+                <a href="#"><i class="fas fa-user"></i> by a user </a>
+                <a href="#"><i class="fas fa-calendar"></i> 1st june 2023</a>
+              </div>
+     
+            <h3>vegan world</h3>
+            <p>it is really a good experience enjoying with you. still it is the best lunch i ever did in your hotel.i really full satisfy by your service.. and sure i will come again and again. </p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </div>
+        <div class="box">
+            <img src="C:\node\vscode\foodfood\pic\blog_2.jpg" height="120px" width="120px">
+            <div class="content">
+            <div class="icons">
+                <a href="#"><i class="fas fa-user"></i> by a user </a>
+                <a href="#"><i class="fas fa-calendar"></i> 2st may 2023</a>
+            </div>
+            <h3>fish is love..</h3>
+            <p> really it was awsome with you wahile i was taking the fish meal. a well cocked and a hygienic environment what i need always and i satisfy by your service.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </div>
+        <div class="box">
+            <img src="C:\node\vscode\foodfood\pic\blog_3.jpg" height="120px" width="120px">
+            <div class="content">
+            <div class="icons">
+                <a href="#"><i class="fas fa-user"></i> by a user </a>
+                <a href="#"><i class="fas fa-calendar"></i> 1st june 2023</a>
+            </div>
+            <h3>biriyani - the test of modern age</h3>
+            <p>the moment was really awsome when i was enjoying a biriyani party with my friend. personally i am completely satisfy with it. </p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </div>
+    </div>
+</section>
+<!-- blog section end -->
+<!-- footer section start! -->
+<section class="footer">
+<div class="box-container">
+    <div class="box">
+        <h3>foodfood <i class="fas fa-shopping-basket"></i></h3>
+        <p>contact us , always available near you.</p>
+        <div class="share">
+            <a href="#"  class="fab fa-facebook-f"></a>
+            <a href="#"  class="fab fa-twitter"></a>
+            <a href="#"  class="fab fa-instagram"></a>
+            <a href="#"  class="fab fa-linkedin"></a>
+        </div> 
+    </div>
+    <div class="box">
+        <h3>contact info..</h3>
+            <a href="#" class="links"><i class="fas fa-phone"></i> +91 9937805964</a>
+            <a href="#" class="links"><i class="fas fa-phone"></i> +91 9938827389</a>
+            <a href="#" class="links"><i class="fas fa-envelope"></i> kshitishkumarpothal@gmail.com</a>
+            <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> mayurbhanj, odisha , india 757041</a>
+      </div>
+        <div class="box">
+            <h3>quick links</h3>
+        
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>home</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>features</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>product</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>catagories</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>review</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>blogs</a>
+         </div>
+            <div class="box">
+                <h3>news latter</h3>
+                 <p>contact for further update</p>
+                 <input type="email" placeholder="your email" class="email">
+                 <input type="submit" value="subscribe" class="btn">
+                 <img src="C:\node\vscode\foodfood\pic\payment.jpeg"  class="payment" height="100px">
+           </div>
+       </div>
+       <div class="credit">created by <span>kshitish kumar pothal</span></div>
+</section>
+
+
+
+<!-- footer section end! -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+
+
+
+</body>
+</html>
